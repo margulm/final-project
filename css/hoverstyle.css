@@ -1,0 +1,70 @@
+.button:hover {
+    cursor: pointer;
+}
+.header__logo:hover {
+    cursor: pointer;
+    color: #c7b299;
+}
+.header__logo:hover::before {
+    content: url(../img/11279.svg);
+}
+.header__menu-item:hover {
+    color: #c7b299;
+    cursor: pointer;
+}
+.header__icon-cash:hover, .header__icon-search:hover {
+    cursor: pointer;
+}
+.header__icon-cash:hover {
+    content: url(../img/cash-hover.svg);
+}
+.header__icon-search:hover {
+    content: url(../img/search-hover.svg);
+}
+.slider__left:hover, .slider__right:hover {
+    cursor: pointer;
+}
+.slider__left:active, .slider__right:active, .slider__left:focus, .slider__right:focus {
+    outline: none;
+}
+.slider__left-img:hover {
+    content: url(../img/left-hover.svg);
+}
+.slider__right-img:hover {
+    content: url(../img/right-hover.svg);
+}
+.slider__button:hover, .text-boxes__content-button:hover {
+    box-shadow: 13px 18px 39px 8px rgba(0,0,0,0.75);
+}
+.slider__pagination:hover {
+    cursor: pointer;
+    transform: scale(2, 0.5);
+}
+.services__content-item:hover {
+    color: #c7b299;
+    cursor: pointer;
+    width: 266px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px;
+}
+.img1:hover {
+    content: url(../img/pencil-hover.svg);
+}
+.img2:hover {
+    content: url(../img/doc-hover.svg);
+}
+.img3:hover {
+    content: url(../img/settings-hover.svg);
+}
+.img4:hover {
+    content: url(../img/folder-hover.svg);
+}
+.services__content-item-underline:hover {
+    cursor: pointer;
+    content: url(../img/line-serv-hover.svg);
+}
+
+
