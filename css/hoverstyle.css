@@ -33,7 +33,7 @@
 .slider__right-img:hover {
     content: url(../img/right-hover.svg);
 }
-.slider__button:hover {
+.slider__button:hover, .text-boxes__content-button:hover {
     box-shadow: 13px 18px 39px 8px rgba(0,0,0,0.75);
 }
 .slider__pagination:hover {
