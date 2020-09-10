@@ -636,3 +636,15 @@ figcaption {
     outline: none;
     margin-top: 40px;
 }
+.partners {
+    background: no-repeat url(../img/partners_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 489px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.partners__link {
+    cursor: pointer;
+}
