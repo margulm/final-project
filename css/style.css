@@ -421,7 +421,6 @@ figcaption {
 }
 .video-bg {
     padding-top: 20px;
-    padding-bottom: 20px;
     min-width: 100%;
     min-height: 100%;
     z-index: 0;
@@ -455,4 +454,54 @@ figcaption {
     top: 150px;
     right: 650px;
     cursor: pointer;
+}
+.mobile {
+    height: 695px;
+    background-color: #fbfaf8;
+    display: flex;
+    justify-content: center;
+}
+.mobile__content {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    margin-top: 170px;
+}
+.mobile__content-title {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+.mobile__content-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding: 40px 0px 40px 0;
+    width: 657px;
+    height: 99px;
+}
+.mobile__list {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #8c8c8c;
+    list-style-type: none;
+    padding-left: 59px;
+}
+.mobile__img {
+    width: 423px;
+    height: 616px;
+    padding-top: 79px;
+    padding-right: 20px;
+}
+.mobile__list-item::before {
+    content: url(../img/arrow-list.jpg);
+    padding-right: 32px;
+    width: 21px;
+    height: 21px;
 }
