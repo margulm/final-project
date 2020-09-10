@@ -648,3 +648,85 @@ figcaption {
 .partners__link {
     cursor: pointer;
 }
+.footer {
+    height: 608px;
+    background-color: #191919;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__card {
+    width: 270px;
+    height: 300px;
+    margin-top: 100px;
+}
+.footer__logo {
+    width: 115px;
+    height: 26px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    margin-left: 30px;
+}
+.footer__logo::before {
+    content: url(../img/11279-white.svg);
+}
+.footer__card-link1 {
+    text-decoration: none;
+}
+.footer__card-link1-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #d1d1d1;
+    cursor: pointer;
+    padding-top: 11px;
+}
+.footer__card-title {
+    font-family: Raleway;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 33px;
+}
+.footer__card-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #555555;
+}
+hr {
+    width: 270px;
+    height: 1px;
+    background-color: #252525;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.footer__card-date, .footer__card-time {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+    margin-bottom: 10px;
+}
+.blue-text {
+    color: #00bff3;
+    cursor: pointer;
+}
+.footer__card-img-grid {
+    width: 270px;
+    height: 212px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
