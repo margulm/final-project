@@ -40,29 +40,27 @@
     cursor: pointer;
     transform: scale(2, 0.5);
 }
-.services__content-item:hover {
+.services__content-item:hover .services__content-item-title {
     color: #c7b299;
     cursor: pointer;
-    width: 266px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 16px;
 }
-.img1:hover {
+.services__content-item:hover .services__content-item-text {
+    color: #c7b299;
+    cursor: pointer;
+}
+.services__content-item:hover .img1 {
     content: url(../img/pencil-hover.svg);
 }
-.img2:hover {
+.services__content-item:hover .img2 {
     content: url(../img/doc-hover.svg);
 }
-.img3:hover {
+.services__content-item:hover .img3 {
     content: url(../img/settings-hover.svg);
 }
-.img4:hover {
+.services__content-item:hover .img4 {
     content: url(../img/folder-hover.svg);
 }
-.services__content-item-underline:hover {
+.services__content-item:hover .services__content-item-underline {
     cursor: pointer;
     content: url(../img/line-serv-hover.svg);
 }
@@ -74,5 +72,32 @@
     cursor: pointer;
     box-shadow: 6px 9px 29px -3px rgba(87,87,86,.3);
 }
-
-
+.latest__content-card:hover .latest__content-card-img-bg1 {
+    position: relative;
+}
+.latest__content-card:hover .latest__content-card-img-bg2 {
+    position: relative;
+}
+.latest__content-card:hover .latest__content-card-img-bg3 {
+    position: relative;
+}
+.latest__content-card:hover figcaption {
+    background-color: #362f2d;
+}
+.latest__content-card:hover .latest__content-card-title {
+    color: #ffffff;
+}
+.latest__content-card:hover .latest__content-card-text {
+    color: #c7b299;
+}
+.latest__content-card:hover {
+    cursor: pointer;
+}
+.latest__content-card:hover .latest__content-card-icon-hover {
+    position: absolute;
+    top: 106px;
+    left: 144px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
