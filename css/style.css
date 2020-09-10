@@ -409,4 +409,50 @@ figcaption {
     justify-self: center;
     border: none;
 }
+.video {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.video__content {
+    position: absolute;
+    top: 350px;
+    right: 430px;
+}
+.video-bg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+.video__content-title {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 4px 3px 9px rgba(84, 132, 109, 1);
+}
+.video__content-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    width: 552px;
+    text-shadow: 4px 3px 9px rgba(84, 132, 109, 1);
+}
+#video__button {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 55px;
+    border: none;
+    position: absolute;
+    top: 150px;
+    right: 650px;
+    cursor: pointer;
 }

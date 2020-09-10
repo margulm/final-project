@@ -156,6 +156,14 @@
             </div>
         </section>
         <section class="video">
+            <video autoplay muted loop class="video-bg" id="video-bg">
+                <source src="img/sample_640x360.mp4" type="video/mp4">
+                <source src="img/sample_960x540.wmv" type="video/wmv">
+            </video>
+            <script>
+                document.getElementById('video-bg').play();
+            </script>
+            <button id="video__button"><img class="video__button-img" alt="" src="img/play.svg"></button>
             <div class="video__content">
                 <h3 class="video__content-title">Waxom Video Presentation</h3>
                 <p class="video__content-text">Investigationes demonstraverunt lectores legere me lius quod ii 
