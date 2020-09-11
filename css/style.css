@@ -346,6 +346,27 @@ body {
     width: 370px;
     height: 237px;
 }
+.latest__content-card-img-bg4 {
+    background: no-repeat url(../img/photo-4.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 370px;
+    height: 237px;
+}
+.latest__content-card-img-bg5 {
+    background: no-repeat url(../img/photo-5.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 370px;
+    height: 237px;
+}
+.latest__content-card-img-bg6 {
+    background: no-repeat url(../img/photo-6.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 370px;
+    height: 237px;
+}
 figcaption {
     height: 50px;
     background-color: #fbfaf8;

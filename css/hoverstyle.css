@@ -81,6 +81,21 @@
 .latest__content-card:hover .latest__content-card-img-bg3 {
     position: relative;
 }
+.latest__content-card:hover .latest__content-card-img-bg4 {
+    position: relative;
+}
+.latest__content-card:hover .latest__content-card-img-bg5 {
+    position: relative;
+}
+.latest__content-card:hover .latest__content-card-img-bg6 {
+    position: relative;
+}
+.latest__content-card-icon-hover-img1:hover {
+    content: url(../img/chain-hover.svg);
+}
+.latest__content-card-icon-hover-img2:hover{
+    content: url(../img/search-img-hover.svg);
+}
 .latest__content-card:hover figcaption {
     background-color: #362f2d;
 }
