@@ -144,6 +144,7 @@ body {
 }
 .slider__pagination {
     padding-bottom: 0px;
+    margin-top: 100px;
 }
 .services {
     display: flex;
@@ -818,6 +819,7 @@ hr {
     }
     .slider__pagination {
         padding: 30px;
+        margin: unset;
     }
     .services__content {
         min-height: 1100px;
