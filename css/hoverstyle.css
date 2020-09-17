@@ -96,7 +96,7 @@
 .latest__content-card-icon-hover-img2:hover{
     content: url(../img/search-img-hover.svg);
 }
-.latest__content-card:hover figcaption {
+.latest__content-card:hover .figcaption {
     background-color: #362f2d;
 }
 .latest__content-card:hover .latest__content-card-title {
@@ -115,4 +115,13 @@
     display: flex;
     justify-content: space-between;
     width: 80px;
+}
+.posts__card:hover .figcaption {
+    background-color: #362f2d;
+}
+.posts__card:hover .posts__card-title {
+    color: white;
+}
+.posts__card:hover .posts__card-text {
+    color: #c7b299;
 }
